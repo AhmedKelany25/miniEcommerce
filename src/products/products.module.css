@@ -1,0 +1,167 @@
+.header{
+    background-image: url('../assets/m1.png');
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.map{
+    position:absolute;
+    bottom: 145px;
+    left: 210px;
+}
+.subTitle{
+    color: #8d8d8d;
+    font-size: 19px;
+}
+.title{
+    font-size: 35px;
+
+}
+.buy{
+    border: none;
+    display: block;
+    padding: 15px 56px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.midTitle{
+    font-size: 33px;
+ 
+    margin: 0 auto;
+    width: 225px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.item1 { 
+    background-image: url(../assets/in2.png);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: ingird;
+    font-weight: bold;
+    font-size: 22px;
+
+ }
+.item2 { 
+    background-image: url(../assets/shel1.png);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: shell;
+
+ }
+.item3 { 
+    background-image: url(../assets/leif2.png);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: Leifarne; 
+
+}
+.item4 {
+    background-image: url(../assets/gron1.png);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+     grid-area: Gronild; 
+
+    }
+.item5 { 
+    background-image: url(../assets/ekebl1.png);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: ekepol; 
+
+
+}
+.item6 {
+    background-image: url(../assets/lall1.png);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    grid-area: lallerod; 
+  
+}
+.item7 { 
+    background-image: url(../assets/vej1.png);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: vejmod;
+
+    }
+
+
+.gridcontainer {
+  display: grid;
+  grid-template-areas:
+    'ingird ingird shell shell Leifarne Leifarne'
+    'ingird ingird shell shell Leifarne Leifarne'
+
+    'Gronild Gronild Gronild Gronild ekepol ekepol'
+    'lallerod lallerod vejmod vejmod vejmod vejmod';
+  grid-gap: 10px;
+  width: 1400px;
+  margin: 0 auto;}
+
+.gridcontainer > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bold;
+  font-size: 22px;
+  position: relative;
+}
+
+.more{
+
+    position:absolute;
+    border: none;
+    display: block;
+    padding: 15px 40px;
+    bottom: 20px;
+    left: 37%;
+    text-decoration: none;
+    color: #000;
+    line-height: 39px;
+  }
+.moreback{
+    height: 70px;
+    width: 67px;
+    background-color: #e9e9e9;
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    bottom: 1px;
+    z-index: 1;
+    left: -9px;
+}
+.moreInfo{
+    height: 69px;
+    width: 180px;
+    line-height: 60px;
+    position: absolute;
+    display: inline-block;
+    bottom: 1px;
+    left: -9px;
+    z-index: 1;
+}
